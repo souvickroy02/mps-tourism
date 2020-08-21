@@ -1,5 +1,5 @@
 var header = document.getElementById("lstbtn");
-var btns = header.getElementsByClassName("btn");
+var btns = header.getElementsByClassName("b1");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function () {
     var current = document.getElementsByClassName("active");

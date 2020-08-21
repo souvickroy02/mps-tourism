@@ -55,11 +55,17 @@ nav ul li a:focus {
   outline: none;
 }
 
-.active, .btn:hover {
+.btn:hover {
   background-color: #32d1a1;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
+}
+
+.active:active {
+  background-color: #f44336;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .box {

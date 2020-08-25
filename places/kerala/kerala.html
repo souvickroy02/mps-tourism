@@ -11,10 +11,8 @@
     <title>WELCOME TO KERALA</title>
 </head>
 
-<body>
-    <button id="buttonToTop">
-        <i class="material-icons">arrow_upward</i>
-    </button>
+<body id="layer">
+
     <nav>
         <div class="logo"><a href="#">
                 <h1>back to home page</h1>
@@ -33,9 +31,9 @@
         </div>
     </div>
     <h1 id="welcome">Welcome to kerala</h1>
-    <h1 id="visit" style="text-shadow: 0px 0px 6px greenyellow;">places to visit</h1>
+    <h1 id="visit" style="text-shadow: 0px 0px 6px rgb(165, 214, 136);">places to visit</h1>
     <div id="fplace">
-        <p>1.<span id="place-name">kerala backwaters Tourism</span></p>
+        <p id=plc>1.<span id="place-name">kerala backwaters Tourism</span></p>
         <div class="galleryContainer">
             <div class="slideShowContainer">
                 <div id="playPause" onclick="playPauseSlides()"></div>
@@ -89,7 +87,7 @@
 
     <!-- second place -->
     <div id="splace">
-        <p>2.<span id="place-name">munnar Tourism</span></p>
+        <p id="plc">2.<span id="place-name">munnar Tourism</span></p>
         <div class="galleryContainer1">
             <div class="slideShowContainer1">
                 <div id="playPause1" onclick="playPauseSlides1()"></div>
@@ -136,7 +134,7 @@
 
     <!-- third place -->
     <div id="tplace">
-        <p>3.<span id="place-name">wayanad tourism</span></p>
+        <p id="plc">3.<span id="place-name">wayanad tourism</span></p>
         <div class="galleryContainer2">
             <div class="slideShowContainer2">
                 <div id="playPause2" onclick="playPauseSlides2()"></div>
@@ -182,15 +180,60 @@
     <!-- footer -->
     <div class="footer">
         <div class="footer-content">
-            <div class="footer-section about"></div>
-            <div class="footer-section link"></div>
-            <div class="footer-section contact"></div>
+            <div class="footer-section about">
+                <h1 class="logo-text"><span class="foot-logo">MPS</span>TOURISM</h1>
+                <p
+                    style="line-height: 21px; margin-top: 10px; letter-spacing: 1px; font-family: 'Times New Roman', Times, serif; font-size: 18px; color: rgb(252, 110, 181);">
+                    India has a myriad of landscapes, great heritage and culture, varied flora and fauna. The country is
+                    the most preferred
+                    tourist destinations for tourists from all across the world for its picturesque landscapes,
+                    spectacular waterfalls,
+                    habitat of the country's largest tiger reserve and home to the warmest people on earth.</p>
+                <div class="contact">
+                    <span><i class="fa fa-phone"></i>&nbsp;+91-6291994175</span><br>
+                    <span><i class="fa fa-envelope"></i>&nbsp;mpstourism@gamil.com</span>
+                </div>
+                <div class="social-media">
+                    <a href="#fb"><i class="fa fa-facebook"></i></a>
+                    <a href="#tw"><i class="fa fa-twitter"></i></a>
+                    <a href="#ins"><i class="fa fa-instagram"></i></a>
+                    <a href="#yout"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section link">
+                <h2>Quick Links</h2>
+                <br>
+                <ul>
+                    <li><a href="#gall">
+                            Gallery</a></li>
+                    <li><a href="#home">
+                            Home Page</a></li>
+                    <li><a href="#cont">
+                            Contact</a></li>
+                    <li><a href="#tandc">
+                            Terms and Condition</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2>
+                <br>
+                <form action="#" method="POST">
+                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    <textarea name="message" class="form-control" rows="3" placeholder="Your Message..." required></textarea>
+                    <button type="submit" class="submit">
+                        <i class="fa fa-envelope" style="padding-left: 10px; width: 20px;"></i>
+                        Send
+                    </button>
+                </form>
+            </div>
             <div class="footer-bottom">
                 &copy; MPS Tourism.com | Designed by @Souvick Roy
             </div>
         </div>
     </div>
-
+    <button id="buttonToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
 </body>
 <script src="place.js" type="text/javascript"></script>
 

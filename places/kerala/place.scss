@@ -12,8 +12,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   // padding: 0 2px 0 2px;
-  background-color: rgb(175, 148, 148);
+  // background-color: rgb(122, 155, 96);
+  background: linear-gradient(#816d40, #3a5428, #683850);
 }
+
+// #layer{
+//   background-color: pink;
+// }
 
 nav {
   background-color: #1fa9bb;
@@ -182,19 +187,19 @@ nav ul li a:focus {
   margin-bottom: 10px;
 }
 
-#fplace{
+#fplace {
   padding-bottom: 300px;
 }
 
-p {
+#plc {
   font-size: 30px;
   margin: 5px 0 0 40px;
-  color: rgb(73, 69, 69);
+  color: rgb(15, 155, 125);
 }
 
 #place-name {
   margin-left: 5px;
-  color: #9c2366;
+  color: #ece4e9;
   text-decoration: underline;
   font-style: italic;
   letter-spacing: 2px;
@@ -440,7 +445,7 @@ p {
   text-align: center;
   padding: 20px 40px;
   margin-bottom: 13px;
-  width: 802px;
+  width: 801px;
   position: absolute;
   left: 17.1em;
   box-shadow: 0px 0px 10px black;
@@ -465,6 +470,7 @@ p {
 
 #read {
   float: right;
+  margin-top: 8px;
   margin-right: 10px;
   color: rgb(20, 108, 180);
   background-color: #adab21;
@@ -476,37 +482,37 @@ p {
   border-radius: 10px;
 }
 
-#more{
+#more {
   display: none;
 }
 
-#read:hover{
+#read:hover {
   background-color: #ca801e;
   color: #753030;
   cursor: pointer;
 }
 
 // second place
-#splace{
+#splace {
   padding-bottom: 300px;
   // border: 1px solid black;
 }
 
-p {
-  font-size: 30px;
-  margin: 5px 0 0 40px;
-  color: rgb(73, 69, 69);
-}
+// p {
+//   font-size: 30px;
+//   margin: 5px 0 0 40px;
+//   color: rgb(73, 69, 69);
+// }
 
-#place-name {
-  margin-left: 5px;
-  color: #9c2366;
-  text-decoration: underline;
-  font-style: italic;
-  letter-spacing: 2px;
-  text-shadow: 2px 1px 6px #bb5b23;
-  text-transform: uppercase;
-}
+// #place-name {
+//   margin-left: 5px;
+//   color: #9c2366;
+//   text-decoration: underline;
+//   font-style: italic;
+//   letter-spacing: 2px;
+//   text-shadow: 2px 1px 6px #bb5b23;
+//   text-transform: uppercase;
+// }
 
 .galleryContainer1 {
   width: 100%;
@@ -742,6 +748,7 @@ p {
 
 #read1 {
   float: right;
+  margin-top: 8px;
   margin-right: 10px;
   color: rgb(20, 108, 180);
   background-color: #adab21;
@@ -753,11 +760,11 @@ p {
   border-radius: 10px;
 }
 
-#more1{
+#more1 {
   display: none;
 }
 
-#read1:hover{
+#read1:hover {
   background-color: #ca801e;
   color: #753030;
   cursor: pointer;
@@ -765,25 +772,25 @@ p {
 
 // third place
 
-#tplace{
+#tplace {
   padding-bottom: 300px;
 }
 
-p {
-  font-size: 30px;
-  margin: 5px 0 0 40px;
-  color: rgb(73, 69, 69);
-}
+// p {
+//   font-size: 30px;
+//   margin: 5px 0 0 40px;
+//   color: rgb(73, 69, 69);
+// }
 
-#place-name {
-  margin-left: 5px;
-  color: #9c2366;
-  text-decoration: underline;
-  font-style: italic;
-  letter-spacing: 2px;
-  text-shadow: 2px 1px 6px #bb5b23;
-  text-transform: uppercase;
-}
+// #place-name {
+//   margin-left: 5px;
+//   color: #9c2366;
+//   text-decoration: underline;
+//   font-style: italic;
+//   letter-spacing: 2px;
+//   text-shadow: 2px 1px 6px #bb5b23;
+//   text-transform: uppercase;
+// }
 
 .galleryContainer2 {
   width: 100%;
@@ -1019,6 +1026,7 @@ p {
 
 #read2 {
   float: right;
+  margin-top: 8px;
   margin-right: 10px;
   color: rgb(20, 108, 180);
   background-color: #adab21;
@@ -1030,11 +1038,11 @@ p {
   border-radius: 10px;
 }
 
-#more2{
+#more2 {
   display: none;
 }
 
-#read2:hover{
+#read2:hover {
   background-color: #ca801e;
   color: #753030;
   cursor: pointer;
@@ -1042,14 +1050,15 @@ p {
 
 // footer
 
-.footer{
+.footer {
+  background-attachment: fixed;
   background: #343d3f;
   color: #d3d3d3;
   height: 400px;
   position: relative;
 }
 
-.footer .footer-bottom{
+.footer .footer-bottom {
   background: #4d5658;
   color: #c5b0b0;
   height: 50px;
@@ -1058,7 +1067,7 @@ p {
   letter-spacing: 2px;
   font-style: italic;
   font-size: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1066,6 +1075,157 @@ p {
 }
 
 .footer .footer-content {
-  border: 1px solid red;
+  // border: 1px solid red;
   height: 350px;
+  display: flex;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+  padding: 25px;
+  border: 1px solid rgb(51, 34, 34);
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+form {
+  margin-top: 20px;
+  -webkit-transition: all 4s ease-in-out;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #1a0555;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  padding-right: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  outline: none;
+  height: 50px;
+  // margin-top: 20px;
+  margin-bottom: 25px;
+  position: absolute;
+  right: 165px;
+  border-radius: 10px;
+  bottom: 80px;
+}
+
+form .submit:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+
+.link ul a {
+  text-decoration: none;
+  color: rgb(78, 207, 175);
+  // border: 1px solid white;
+}
+
+.link ul li {
+  // border: 1px solid white;
+  padding: 8px 0;
+  width: 40%;
+}
+
+.link ul a:hover {
+  color: rgb(16, 121, 139);
+}
+
+.logo-text {
+  letter-spacing: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+
+.foot-logo {
+  font-style: normal;
+  letter-spacing: 1px;
+  color: #48ddb0;
+}
+
+.contact .fa {
+  margin: 8px 0;
+  letter-spacing: 2px;
+}
+
+.social-media {
+  margin-top: 5px;
+  padding: 0 30px;
+  margin-left: 40px;
+  // border: 1px solid black;
+  width: 300px;
+}
+
+.fa-facebook {
+  // border: 1px solid black;
+  padding: 5px 10px;
+  margin: 2px 10px;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.fa-facebook:hover {
+  color: blue;
+  background-color: white;
+}
+
+.fa-twitter {
+  // border: 1px solid black;
+  padding: 5px 7px;
+  margin: 2px 10px;
+  color: white;
+  background-color: rgb(84, 193, 226);
+  border-radius: 10px;
+}
+
+.fa-twitter:hover {
+  color: rgb(84, 193, 226);
+  background-color: white;
+}
+
+.fa-instagram {
+  border: 1px solid black;
+  padding: 5px 7px;
+  margin: 2px 10px;
+  color: white;
+  background-color: rgb(197, 74, 105);
+  border-radius: 10px;
+}
+
+.fa-instagram:hover {
+  color: rgb(197, 74, 105);
+  background-color: white;
+}
+
+.fa-youtube {
+  border: 1px solid black;
+  padding: 5px 7px;
+  margin: 2px 10px;
+  color: white;
+  background-color: rgb(177, 40, 22);
+  border-radius: 10px;
+}
+
+.fa-youtube:hover {
+  color: rgb(177, 40, 22);
+  background-color: white;
 }

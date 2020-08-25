@@ -1,0 +1,197 @@
+<!-- change the file name to kerala.html later -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="place.css">
+    <title>WELCOME TO KERALA</title>
+</head>
+
+<body>
+    <button id="buttonToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <nav>
+        <div class="logo"><a href="#">
+                <h1>back to home page</h1>
+            </a></div>
+        <ul id="lstbtn">
+            <li class="btn activ"><i class="fa fa-power-off"></i><a href="#logout">logout</a></li>
+        </ul>
+    </nav>
+    <div class="video-container">
+        <div class="video-show-container">
+            <div class="video-holder">
+                <video width="100%" height="100%" controls loop autoplay muted style="cursor: pointer;">
+                    <source src="Kerala Backwaters.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <h1 id="welcome">Welcome to kerala</h1>
+    <h1 id="visit" style="text-shadow: 0px 0px 6px greenyellow;">places to visit</h1>
+    <div id="fplace">
+        <p>1.<span id="place-name">kerala backwaters Tourism</span></p>
+        <div class="galleryContainer">
+            <div class="slideShowContainer">
+                <div id="playPause" onclick="playPauseSlides()"></div>
+                <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+                <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+                <div class="captionTextHolder">
+                    <p class="captionText slideTextFromTop" style="color: white;"></p>
+                </div>
+                <div class="imageHolder">
+                    <img src="backwaters-kerala.jpg" alt="kerala pictures">
+                    <p class="captionText">Thiruvanathapuram Backwaters</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="kerala2.jpg" alt="kerala pictures">
+                    <p class="captionText">Alleppey Backwaters</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="kerala3.jpg" alt="kerala pictures">
+                    <p class="captionText">Cherai Island Backwaters</p>
+                </div>
+            </div>
+            <div id="dotsContainer"></div>
+            <div class="text">
+                <h1 class="place-head">kerala backwaters</h1>
+                <p class="place-para">The Kerala backwaters are a network of brackish lagoons and lakes lying parallel
+                    to the
+                    Arabian Sea coast
+                    (known as the
+                    Malabar Coast) of Kerala state in southern India, as well as interconnected canals, rivers, and
+                    inlets,
+                    a labyrinthine
+                    system formed by more than 900 kilometres (560 mi) of waterways, and sometimes compared to American
+                    bayous.The<span id="dt">...</span>
+                    <span id="more">network includes five large lakes linked by canals, both man made and natural, fed
+                        by
+                        38 rivers, and
+                        extending virtually
+                        half the length of Kerala state. The backwaters were formed by the action of waves and shore
+                        currents
+                        creating low
+                        barrier islands across the mouths of the many rivers flowing down from the Western Ghats range.
+                        In
+                        the
+                        midst of this
+                        landscape there are a number of towns and cities, which serve as the starting and end points of
+                        backwater cruises.</span></p>
+                <button id="read" type="button" onclick="read()">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- second place -->
+    <div id="splace">
+        <p>2.<span id="place-name">munnar Tourism</span></p>
+        <div class="galleryContainer1">
+            <div class="slideShowContainer1">
+                <div id="playPause1" onclick="playPauseSlides1()"></div>
+                <div onclick="plusSlides1(-1)" class="nextPrevBtn1 leftArrow1"><span class="arrow1 arrowLeft1"></span>
+                </div>
+                <div onclick="plusSlides1(1)" class="nextPrevBtn1 rightArrow1"><span class="arrow1 arrowRight1"></span>
+                </div>
+                <div class="captionTextHolder1">
+                    <p class="captionText1 slideTextFromTop1" style="color: white;"></p>
+                </div>
+                <div class="imageHolder1">
+                    <img src="munnar.jpg" alt="kerala pictures">
+                    <p class="captionText1">Munnar coffee Garden</p>
+                </div>
+                <div class="imageHolder1">
+                    <img src="munnar2.jpg" alt="kerala pictures">
+                    <p class="captionText1">Munnar Lake</p>
+                </div>
+                <div class="imageHolder1">
+                    <img src="munnar1.jpg" alt="kerala pictures">
+                    <p class="captionText1">Munnar Chokramudi Peak</p>
+                </div>
+            </div>
+            <div id="dotsContainer1"></div>
+            <div class="text">
+                <h1 class="place-head">Muunar</h1>
+                <p class="place-para">Munnar is a popular hill-station of Kerala perched at an altitude of 1600 metres
+                    in the Western Ghats. Famous for its
+                    tea estates, various shades of green, blankets of mist and craggy peaks, Munnar is aptly known as
+                    the 'Kashmir of South
+                    India'.
+                    Situated<span id="dt1">...</span>
+                    <span id="more1">on the banks of three rivers- Madupetti, Nallathanni and Periavaru, Munnar is also
+                        blessed with natural view-points
+                        apart from the tea-plantations. Munnar is divided into Old Munnar, where the tourist information
+                        office is, and Munnar,
+                        where the bus station and most guest houses are located. The Eravikulam National Park, Salim Ali
+                        Bird Sanctuary and tea
+                        plantations are its major attractions.</span></p>
+                <button id="read1" type="button" onclick="read1()">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- third place -->
+    <div id="tplace">
+        <p>3.<span id="place-name">wayanad tourism</span></p>
+        <div class="galleryContainer2">
+            <div class="slideShowContainer2">
+                <div id="playPause2" onclick="playPauseSlides2()"></div>
+                <div onclick="plusSlides2(-1)" class="nextPrevBtn2 leftArrow2"><span class="arrow2 arrowLeft2"></span>
+                </div>
+                <div onclick="plusSlides2(1)" class="nextPrevBtn2 rightArrow2"><span class="arrow2 arrowRight2"></span>
+                </div>
+                <div class="captionTextHolder2">
+                    <p class="captionText2 slideTextFromTop2" style="color: white;"></p>
+                </div>
+                <div class="imageHolder2">
+                    <img src="Wayanad1.jpg" alt="kerala pictures">
+                    <p class="captionText2">Chembra Peak</p>
+                </div>
+                <div class="imageHolder2">
+                    <img src="Wayanad2.jpg" alt="kerala pictures">
+                    <p class="captionText2">Meenmutty Waterfalls</p>
+                </div>
+                <div class="imageHolder2">
+                    <img src="Wayanad3.jpg" alt="kerala pictures">
+                    <p class="captionText2">Kuruva Island</p>
+                </div>
+            </div>
+            <div id="dotsContainer2"></div>
+            <div class="text">
+                <h1 class="place-head">wayanad</h1>
+                <p class="place-para">Wayanad, which is also known as the ‘green paradise’ lies in between the mountains
+                    of the Western Ghats. Wayanad
+                    district is located on the southern tip of the Deccan plateau and in the north-eastern part of
+                    Kerala and the most
+                    popular tourist location in Kerala. It<span id="dt2">...</span>
+                    <span id="more2">is often called the spice garden of south, the land of paddy fields, and home of
+                        monsoon...
+
+                        Wayanad is spread over an area of 2132 sq km. Wayand is Known for its cool highland climate,
+                        misty Peaks and its virgin
+                        forests.</span></p>
+                <button id="read2" type="button" onclick="read2()">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about"></div>
+            <div class="footer-section link"></div>
+            <div class="footer-section contact"></div>
+            <div class="footer-bottom">
+                &copy; MPS Tourism.com | Designed by @Souvick Roy
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="place.js" type="text/javascript"></script>
+
+</html>

@@ -1,0 +1,224 @@
+<!-- change the file name to kerala.html later -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../place.css">
+    <title>WELCOME TO GOA</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo"><a href="/plan_page/trips_plans.html">
+                <h1>back to previous page</h1>
+            </a></div>
+        <ul id="lstbtn">
+            <li class="btn activ"><i class="fa fa-power-off"></i><a href="#logout">logout</a></li>
+        </ul>
+    </nav>
+    <div class="video-container" style="height: 435px;">
+        <div class="video-show-container">
+            <div class="video-holder">
+                <video width="100%" height="100%" controls loop autoplay muted style="cursor: pointer;">
+                    <source src="Goa-Video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <h1 id="welcome">Welcome to goa</h1>
+    <h1 id="visit" style="text-shadow: 0px 0px 6px rgb(165, 214, 136);">places to visit</h1>
+    <div id="fplace">
+        <p id=plc>1.<span id="place-name">gokarna beach Tourism</span></p>
+        <div class="galleryContainer">
+            <div class="slideShowContainer">
+                <div id="playPause" onclick="playPauseSlides()"></div>
+                <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+                <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+                <div class="captionTextHolder">
+                    <p class="captionText slideTextFromTop" style="color: white;"></p>
+                </div>
+                <div class="imageHolder">
+                    <img src="gokarna.jpg" alt="Goa pictures">
+                    <p class="captionText">Gokarna Cliff</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="goakarna2.jpg" alt="Goa pictures">
+                    <p class="captionText">Paradise Beach</p>
+                </div>
+                <div class="imageHolder">
+                    <img src="sunset goa2.jpg" alt="Goa pictures">
+                    <p class="captionText">Belekan Beach</p>
+                </div>
+            </div>
+            <div id="dotsContainer"></div>
+            <div class="text">
+                <h1 class="place-head">Gokarna Beach</h1>
+                <p class="place-para">The Gokarna beach forms the coast of the town and is followed by Main beach in
+                    northern direction while the other four
+                    beaches lie to the south. Gokarna Main Beach is mainly used by Indian pilgrims. Main Beach is a long
+                    open beach, known
+                    for surfing. Kudle and<span id="dt">...</span>
+                    <span id="more">Om are around 6 km from Gokarna town along a muddy hill; they are accessible by
+                        rickshaw or foot. Half moon and Paradise
+                        are beyond Om beach and are accessible only by trekking or boat. Om beach is named so because it
+                        is shaped like the
+                        auspicious ॐ Om symbol. Om beach is a naturally Om-shaped beach, it attracts local tourists on
+                        weekends. It has a few
+                        shacks and eateries, and also boat service to other beaches.</span></p>
+                <button id="read" type="button" onclick="read()">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- second place -->
+    <div id="splace">
+        <p id="plc">2.<span id="place-name">miramar beach tourism</span></p>
+        <div class="galleryContainer1">
+            <div class="slideShowContainer1">
+                <div id="playPause1" onclick="playPauseSlides1()"></div>
+                <div onclick="plusSlides1(-1)" class="nextPrevBtn1 leftArrow1"><span class="arrow1 arrowLeft1"></span>
+                </div>
+                <div onclick="plusSlides1(1)" class="nextPrevBtn1 rightArrow1"><span class="arrow1 arrowRight1"></span>
+                </div>
+                <div class="captionTextHolder1">
+                    <p class="captionText1 slideTextFromTop1" style="color: white;"></p>
+                </div>
+                <div class="imageHolder1">
+                    <img src="goa-miramar-beach-147714495783o.jpg" alt="Goa pictures">
+                    <p class="captionText1">Miramar Beach</p>
+                </div>
+                <div class="imageHolder1">
+                    <img src="miramar beach2.jpg" alt="Goa pictures">
+                    <p class="captionText1">Sinquerim Beach</p>
+                </div>
+                <div class="imageHolder1">
+                    <img src="goa sunset.jpg" alt="Goa pictures">
+                    <p class="captionText1">Miramar Beach Sunset</p>
+                </div>
+            </div>
+            <div id="dotsContainer1"></div>
+            <div class="text">
+                <h1 class="place-head">Miramar beach</h1>
+                <p class="place-para">Miramar is the beach area of the Goan capital of Panjim, also known as Panaji and
+                    is one of the most visited beaches of
+                    Goa. It is one of the two only beaches in Panjim, other<span id="dt1">...</span>
+                    <span id="more1">being Caranzalem beach. Many people, mostly tourists, come to this beach every day.
+                        Originally named Porta de
+                        Gaspar Dias by the Portuguese, the name was then changed to Miramar.</span></p>
+                <button id="read1" type="button" onclick="read1()">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- third place -->
+    <div id="tplace">
+        <p id="plc">3.<span id="place-name">Dudhsagar Falls tourism</span></p>
+        <div class="galleryContainer2">
+            <div class="slideShowContainer2">
+                <div id="playPause2" onclick="playPauseSlides2()"></div>
+                <div onclick="plusSlides2(-1)" class="nextPrevBtn2 leftArrow2"><span class="arrow2 arrowLeft2"></span>
+                </div>
+                <div onclick="plusSlides2(1)" class="nextPrevBtn2 rightArrow2"><span class="arrow2 arrowRight2"></span>
+                </div>
+                <div class="captionTextHolder2">
+                    <p class="captionText2 slideTextFromTop2" style="color: white;"></p>
+                </div>
+                <div class="imageHolder2">
+                    <img src="Dudhsagar-waterfall-goa.jpg" alt="Goa pictures">
+                    <p class="captionText2">DEVIL'S CANYON</p>
+                </div>
+                <div class="imageHolder2">
+                    <img src="Dudhsagar_Falls_Triplet.jpg" alt="Goa pictures">
+                    <p class="captionText2">Dudhsagar Water Falls</p>
+                </div>
+                <div class="imageHolder2">
+                    <img src="Dudhsagar-wildlife-goa3.jpg" alt="Goa pictures">
+                    <p class="captionText2">Bhagwan Mahavir Wildlife Sanctuary</p>
+                </div>
+            </div>
+            <div id="dotsContainer2"></div>
+            <div class="text">
+                <h1 class="place-head">Dudhsagar Falls</h1>
+                <p class="place-para">Dudhsagar Falls (literally Sea of Milk) is a four-tiered waterfall located on the
+                    Mandovi River in the Indian
+                    state of Goa. It is 60 km from Panaji by road and is located on<span id="dt2">...</span>
+                    <span id="more2">the Madgaon-Belagavi rail route about 46 km east of Madgaon and 80 km south
+                        of Belagavi. Dudhsagar Falls is
+                        amongst India's tallest waterfalls with a height of 310 m (1017 feet) and an average width of 30
+                        metres (100 feet).</span></p>
+                <button id="read2" type="button" onclick="read2()">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="pricebtn">
+        <li><a href="/buy_plan/buy_plan.html">check holiday packages</a></li>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h1 class="logo-text"><span class="foot-logo">MPS</span>TOURISM</h1>
+                <p
+                    style="line-height: 21px; margin-top: 10px; letter-spacing: 1px; font-family: 'Times New Roman', Times, serif; font-size: 18px; color: rgb(252, 110, 181);">
+                    India has a myriad of landscapes, great heritage and culture, varied flora and fauna. The country is
+                    the most preferred
+                    tourist destinations for tourists from all across the world for its picturesque landscapes,
+                    spectacular waterfalls,
+                    habitat of the country's largest tiger reserve and home to the warmest people on earth.</p>
+                <div class="contact">
+                    <span><i class="fa fa-phone"></i>&nbsp;+91-6291994175</span><br>
+                    <span><i class="fa fa-envelope"></i>&nbsp;mpstourism@gamil.com</span>
+                </div>
+                <div class="social-media">
+                    <a href="#fb"><i class="fa fa-facebook"></i></a>
+                    <a href="#tw"><i class="fa fa-twitter"></i></a>
+                    <a href="#ins"><i class="fa fa-instagram"></i></a>
+                    <a href="#yout"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section link">
+                <h2>Quick Links</h2>
+                <br>
+                <ul>
+                    <li><a href="#gall">
+                            Gallery</a></li>
+                    <li><a href="/index.html">
+                            Home Page</a></li>
+                    <li><a href="#cont">
+                            Contact</a></li>
+                    <li><a href="#tandc">
+                            Terms and Condition</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2>
+                <br>
+                <form action="#" method="POST">
+                    <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    <textarea name="message" class="form-control" rows="3" placeholder="Your Message..."
+                        required></textarea>
+                    <button type="submit" class="submit">
+                        <i class="fa fa-envelope" style="padding-left: 10px; width: 20px;"></i>
+                        Send
+                    </button>
+                </form>
+            </div>
+            <div class="footer-bottom">
+                &copy; MPS Tourism.com - 2020 | Designed by @Souvick Roy &Mayukh Mitra & @Pushan Pore
+            </div>
+        </div>
+    </div>
+    <button id="buttonToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+</body>
+<script src="../place.js" type="text/javascript"></script>
+
+</html>

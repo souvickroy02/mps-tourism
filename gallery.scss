@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: gainsboro;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(22, 168, 212);
+  border: 5px solid rgb(83, 16, 78);
+  background-color: rgba(9, 92, 9, 0.836);
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 30%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 2px solid rgb(92, 175, 136);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.column img:hover{
+    box-shadow: 5px 0px 40px rgba($color: rgb(0,0,0), $alpha: 0.5);
+    background-color: rgb(20, 224, 214);
+    transition: all 0.5s;
+}
+
+.column img:active{
+    background-color: rgb(126, 27, 27);
+    transition: 0.01s;
+    border: 2px solid rgb(160, 33, 65);
+}
+
+@media screen and (max-width: 800px){
+    .column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+

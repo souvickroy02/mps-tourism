@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: aliceblue;
+}
+
+nav {
+  background-color: #1fa9bb;
+  height: 80px;
+  width: 100%;
+}
+
+.logo {
+  background-image: url("./mps.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 150px;
+  border-radius: 20px;
+  border: 2px solid #26c240;
+}
+
+.logo > a > h1 {
+  text-align: center;
+  color: #881e47;
+  width: 265px;
+  letter-spacing: 1px;
+  padding: 15px 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 5px;
+  left: 6.3em;
+  top: 10px;
+  position: absolute;
+}
+
+.logo > a > h1:hover {
+  color: #19dda2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.logo > a > h1:active {
+  color: #f44336;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.heading {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 550px;
+  padding: 20px;
+  color: #c2ad39;
+}
+
+span {
+  color: #f44336;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+h3 a {
+  color: #881e47;
+}
+
+h3 a:hover {
+  color: blueviolet;
+}
+/*# sourceMappingURL=login_reg.css.map */

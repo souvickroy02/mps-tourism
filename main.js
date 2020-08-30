@@ -9,11 +9,17 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 const btnScrollToTop = document.querySelector("#buttonToTop");
-btnScrollToTop.addEventListener("click", function (){
-    // window.scrollTo(0, 0);
-    window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: "smooth"
-    });
+btnScrollToTop.addEventListener("click", function () {
+  // window.scrollTo(0, 0);
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
 });
+
+function regalert() {
+  window.alert(
+    "You have to log in to see our plans..please register if you are not a registered user and login to enjoy our plans."
+  );
+}
